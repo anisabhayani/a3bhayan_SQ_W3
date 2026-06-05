@@ -1,10 +1,5 @@
 # Week 3 Example 2: Full Fighting Game
 
-## What This Example Demonstrates
-
-> **Note for students:** This section is included in example files only to help you study. Do not include it in your Side Quest submissions.
-
-This example builds on Example 1 by adding health, attacking, hit detection, sound, and game states to create a complete two-player fighting game.
 
 - **Game states** — the game is always in one of three states (`STATE_START`, `STATE_FIGHT`, `STATE_WIN`); each state controls what gets drawn and what responds to input; stored as constants to prevent typos
 - **`preload()`** — loads all sounds before the sketch starts so they are ready to play immediately; sound files are loaded into an array for variety
